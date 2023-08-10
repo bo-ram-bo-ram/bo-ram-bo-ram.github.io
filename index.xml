@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Boram&#39;s Blog</title>
-    <link>http://bo-ram-bo-ram.github.io/</link>
+    <link>https://bo-ram-bo-ram.github.io/</link>
     <description>Recent content on Boram&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Aug 2023 10:43:40 +0900</lastBuildDate><atom:link href="http://bo-ram-bo-ram.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Aug 2023 10:43:40 +0900</lastBuildDate><atom:link href="https://bo-ram-bo-ram.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>first post</title>
-      <link>http://bo-ram-bo-ram.github.io/posts/mypost/</link>
+      <link>https://bo-ram-bo-ram.github.io/posts/mypost/</link>
       <pubDate>Thu, 10 Aug 2023 10:43:40 +0900</pubDate>
       
-      <guid>http://bo-ram-bo-ram.github.io/posts/mypost/</guid>
+      <guid>https://bo-ram-bo-ram.github.io/posts/mypost/</guid>
       <description>#첫번째 기록</description>
     </item>
     

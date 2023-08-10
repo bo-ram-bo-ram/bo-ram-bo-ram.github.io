@@ -8,12 +8,19 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 10 Aug 2023 10:43:40 +0900</lastBuildDate><atom:link href="https://bo-ram-bo-ram.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>first post</title>
+      <title>hugo로 블로그 만들기</title>
       <link>https://bo-ram-bo-ram.github.io/posts/mypost/</link>
       <pubDate>Thu, 10 Aug 2023 10:43:40 +0900</pubDate>
       
       <guid>https://bo-ram-bo-ram.github.io/posts/mypost/</guid>
-      <description>#첫번째 기록</description>
+      <description>hugo로 블로그 만들기- 드디어 만들었다 🐤 error1 어제 계속 시도했었는데
+bo-ram-bo-ram.github.io 레포랑 연결하는 부분에서 계속 오류가 났다
+해결하고 난 다음 지금 생각해보면 폴더 구조를 잘못만들었던 것 같다
+Blog 폴더 안에서bo-ram-bo-ram.github.io 폴더를 만들어서 진행했더니
+자꾸 fatal: &amp;lsquo;public&amp;rsquo; does not have a commit checked out
+오류가 떴는데 이게 이미 git 파일이 있을 때 나오는 오류라고 한다
+git을 임의로 지우니 또 에러가 뜨고 다시 생성되기를 반복했다!
+이미 Blog 레포랑 연결을 했던 폴더에서 진행해서 그런것이었다</description>
     </item>
     
   </channel>

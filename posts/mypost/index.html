@@ -41,7 +41,7 @@
   />
 
   
-  <title>first post - Boram&#39;s Blog</title>
+  <title>hugo로 블로그 만들기 - Boram&#39;s Blog</title>
 
   
   <meta name="theme-color" />
@@ -49,7 +49,14 @@
   
   
   
-  <meta name="description" content="#첫번째 기록" />
+  <meta name="description" content="hugo로 블로그 만들기- 드디어 만들었다 🐤 error1 어제 계속 시도했었는데
+bo-ram-bo-ram.github.io 레포랑 연결하는 부분에서 계속 오류가 났다
+해결하고 난 다음 지금 생각해보면 폴더 구조를 잘못만들었던 것 같다
+Blog 폴더 안에서bo-ram-bo-ram.github.io 폴더를 만들어서 진행했더니
+자꾸 fatal: &lsquo;public&rsquo; does not have a commit checked out
+오류가 떴는데 이게 이미 git 파일이 있을 때 나오는 오류라고 한다
+git을 임의로 지우니 또 에러가 뜨고 다시 생성되기를 반복했다!
+이미 Blog 레포랑 연결을 했던 폴더에서 진행해서 그런것이었다" />
   <meta name="author" content="Boram&#39;s Blog" />
   
 
@@ -101,23 +108,44 @@
   
   
   
-  <meta property="og:title" content="first post" />
-<meta property="og:description" content="#첫번째 기록" />
+  <meta property="og:title" content="hugo로 블로그 만들기" />
+<meta property="og:description" content="hugo로 블로그 만들기- 드디어 만들었다 🐤 error1 어제 계속 시도했었는데
+bo-ram-bo-ram.github.io 레포랑 연결하는 부분에서 계속 오류가 났다
+해결하고 난 다음 지금 생각해보면 폴더 구조를 잘못만들었던 것 같다
+Blog 폴더 안에서bo-ram-bo-ram.github.io 폴더를 만들어서 진행했더니
+자꾸 fatal: &lsquo;public&rsquo; does not have a commit checked out
+오류가 떴는데 이게 이미 git 파일이 있을 때 나오는 오류라고 한다
+git을 임의로 지우니 또 에러가 뜨고 다시 생성되기를 반복했다!
+이미 Blog 레포랑 연결을 했던 폴더에서 진행해서 그런것이었다" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://bo-ram-bo-ram.github.io/posts/mypost/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-08-10T10:43:40+09:00" />
 <meta property="article:modified_time" content="2023-08-10T10:43:40+09:00" />
 
   
-  <meta itemprop="name" content="first post">
-<meta itemprop="description" content="#첫번째 기록"><meta itemprop="datePublished" content="2023-08-10T10:43:40+09:00" />
+  <meta itemprop="name" content="hugo로 블로그 만들기">
+<meta itemprop="description" content="hugo로 블로그 만들기- 드디어 만들었다 🐤 error1 어제 계속 시도했었는데
+bo-ram-bo-ram.github.io 레포랑 연결하는 부분에서 계속 오류가 났다
+해결하고 난 다음 지금 생각해보면 폴더 구조를 잘못만들었던 것 같다
+Blog 폴더 안에서bo-ram-bo-ram.github.io 폴더를 만들어서 진행했더니
+자꾸 fatal: &lsquo;public&rsquo; does not have a commit checked out
+오류가 떴는데 이게 이미 git 파일이 있을 때 나오는 오류라고 한다
+git을 임의로 지우니 또 에러가 뜨고 다시 생성되기를 반복했다!
+이미 Blog 레포랑 연결을 했던 폴더에서 진행해서 그런것이었다"><meta itemprop="datePublished" content="2023-08-10T10:43:40+09:00" />
 <meta itemprop="dateModified" content="2023-08-10T10:43:40+09:00" />
-<meta itemprop="wordCount" content="2">
+<meta itemprop="wordCount" content="262">
 <meta itemprop="keywords" content="" />
   
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="first post"/>
-<meta name="twitter:description" content="#첫번째 기록"/>
+<meta name="twitter:title" content="hugo로 블로그 만들기"/>
+<meta name="twitter:description" content="hugo로 블로그 만들기- 드디어 만들었다 🐤 error1 어제 계속 시도했었는데
+bo-ram-bo-ram.github.io 레포랑 연결하는 부분에서 계속 오류가 났다
+해결하고 난 다음 지금 생각해보면 폴더 구조를 잘못만들었던 것 같다
+Blog 폴더 안에서bo-ram-bo-ram.github.io 폴더를 만들어서 진행했더니
+자꾸 fatal: &lsquo;public&rsquo; does not have a commit checked out
+오류가 떴는데 이게 이미 git 파일이 있을 때 나오는 오류라고 한다
+git을 임의로 지우니 또 에러가 뜨고 다시 생성되기를 반복했다!
+이미 Blog 레포랑 연결을 했던 폴더에서 진행해서 그런것이었다"/>
 
   
   
@@ -206,7 +234,7 @@
 
 <article>
   <header class="mb-16">
-    <h1 class="!my-0 pb-2.5">first post</h1>
+    <h1 class="!my-0 pb-2.5">hugo로 블로그 만들기</h1>
 
     
     <div class="text-sm antialiased opacity-60">
@@ -220,7 +248,55 @@
     
   </header>
 
-  <section><p>#첫번째 기록</p>
+  <section><h2 id="hugo로-블로그-만들기--드디어-만들었다-">hugo로 블로그 만들기- 드디어 만들었다 🐤</h2>
+<hr>
+<h3 id="error1">error1</h3>
+<p>어제 계속 시도했었는데<br>
+bo-ram-bo-ram.github.io 레포랑 연결하는 부분에서  계속 오류가 났다<br>
+해결하고 난 다음 지금 생각해보면 폴더 구조를 잘못만들었던 것 같다<br>
+Blog 폴더 안에서bo-ram-bo-ram.github.io 폴더를 만들어서 진행했더니<br>
+자꾸 <strong>fatal: &lsquo;public&rsquo; does not have a commit checked out</strong><br>
+오류가 떴는데 이게 이미 git 파일이 있을 때 나오는 오류라고 한다<br>
+git을 임의로 지우니 또 에러가 뜨고 다시 생성되기를 반복했다!<br>
+이미 Blog 레포랑 연결을 했던 폴더에서 진행해서 그런것이었다</p>
+<p>이 <a href="https://youtu.be/LIFvgrRxdt4">영상</a>  참고해서 만드니까 잘 만들어졌다</p>
+<hr>
+<h3 id="error2">error2</h3>
+<p>다 만들고 났더니 테마가 적용이 안되는 오류가 났다<br>
+블로그에서 개발자 도구를 열어보니</p>
+<p><strong>Mixed Content: The page at &lsquo;<a href="https://bo-ram-bo-ram.github.io/'">https://bo-ram-bo-ram.github.io/'</a> was loaded over HTTPS, but requested an insecure stylesheet &lsquo;<a href="http://bo-ram-bo-ram.github.io/main.min.css'">http://bo-ram-bo-ram.github.io/main.min.css'</a>. This request has been blocked; the content must be served over HTTPS.</strong><br>
+에러였는데내가이게 http랑 https랑 혼합돼서 나오는 에러였다<br>
+모든 파일을 열어볼 생각에 아찔햇는데 혹시 몰라서 baseURL을 확인해봤더니 내가 레포링크를 http로 적어놨었다<br>
+다행히 그 링크만 https로 바꿨더니 테마가 잘 적용됐다!<br>
+아마 유튜브 영상은 2021영상이었는데 최근 보안이슈로 http가 막힌 것 같다</p>
+<hr>
+<h3 id="error3">error3</h3>
+<p>이모지쓰고싶어서 계속 이것저것 했는데 그냥 출력되는 것이다!<br>
+이모티콘 마저 맘대로 쓸 수 없다니뭐가 문제인가하고 찾아보니까<br>
+hugo.toml에서 <strong>enableEmoji=true</strong>를 했어야했다<br>
+아캔두</p>
+<hr>
+<h3 id="error4">error4</h3>
+<p>이모지를 넣고싶어서 계속 이 파일을 만지작 거렸더니 갑자기 <strong>assemble: &ldquo;E:\study\Blog\boram_blog\content\posts\mypost.md:1:1&rdquo;: failed to unmarshal YAML: yaml: line 2: mapping values are not allowed in this contex</strong> 이런 에러가 떴다<br>
+알고보니 맨 첫줄 &mdash;뒤에 공백이 들어가있었고 들여쓰기가 문제였다..<br>
+그렇다.. 공백 주의하자!</p>
+<hr>
+<h3 id="테마-커스텀">테마 커스텀</h3>
+<p>사람의 욕심은 끝이 없었다<br>
+블로그를 5-6시간 만에 만들어놓고 테마를 커스텀 하고싶어졌다<br>
+ㅋㅋㅋㅋㅋutterances로 댓글 구현하고싶었는데&hellip;<br>
+도저히 어디 html에 붙여넣어야하는지 못찾았다<br>
+이건 다음에 해봐야지<br>
+기록용으로 붙여놓을 소스 남겨놓는다!</p>
+<pre tabindex="0"><code>&lt;script src=&#34;https://utteranc.es/client.js&#34;
+       repo=&#34;bo-ram-bo-ram/blog_comment&#34;
+       issue-term=&#34;title&#34;
+       theme=&#34;github-light&#34;
+       crossorigin=&#34;anonymous&#34;
+       async&gt;
+&lt;/script&gt;
+</code></pre><p>tmi 1 ) 달 눌러보세요
+tmi 2 ) <a href="https://www.webfx.com/tools/emoji-cheat-sheet/">이모지</a> 최고 ❤️</p>
 </section>
 
   
@@ -243,6 +319,7 @@
     <footer
   class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
 >
+
   <div class="mr-auto">
     &copy; 2023
     <a class="link" href="https://bo-ram-bo-ram.github.io/">Boram&#39;s Blog</a>
@@ -250,15 +327,9 @@
   <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
     >Powered by Hugo️️</a
   >️
-  <a
-    class="link"
-    href="https://github.com/nanxiaobei/hugo-paper"
-    rel="noopener"
-    target="_blank"
-    >✎ Paper</a
-  >
 
-    </footer>
+
+</footer>
 
   </body>
 </html>
